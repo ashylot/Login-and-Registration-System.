@@ -1,5 +1,4 @@
 <?php
-// dashboard.php - only visible to logged-in users
 session_start();
 if (!isset($_SESSION["user_id"])) {
     header("Location: login.php");
